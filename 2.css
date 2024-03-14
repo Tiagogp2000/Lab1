@@ -1,0 +1,37 @@
+
+.Back{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: bisque;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    text-decoration: none;
+    box-shadow: 3px 3px 0;
+     text-align: center;
+     display: block;
+     font-size: 16px;
+
+  }
+
+  h1{
+    margin-top: 20%;
+    margin-left: 35%;
+
+    
+  }
+
+.container {
+    background-color:bisque ;
+    width: 400px; /* Largura do quadrado */
+    height: 140px; /* Altura do quadrado */
+    border: 2px solid black; /* Bordas sólidas de 2 pixels na cor preta */
+    margin-left: 35%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
