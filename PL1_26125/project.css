@@ -1,0 +1,20 @@
+
+body {
+   text-align: center;
+}
+
+header {
+    text-align: center;
+    image-orientation: initial;
+}
+
+
+
+
+.square {
+    width: 400px; /* Largura do quadrado */
+    height: 220px; /* Altura do quadrado */
+    border: 2px solid black; /* Bordas sólidas de 2 pixels na cor preta */
+    margin:auto;
+    text-align: center;
+}

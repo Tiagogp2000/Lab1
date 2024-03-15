@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <a href="project.html"><button class="Back">< Back</button></a>
+
+    <h1>Login</h1>
+
+    <div class="container">
+      <form id="loginForm">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+        <br />
+        <input type="submit" value="Login" />
+      </form>
+      <div class="register-link">
+        <a href="forgotpassword.html">Forgot Password?</a>
+      </div>
+    </div>
+
+    <script>
+      // Simulação de login
+      document
+        .getElementById("loginForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          var email = document.getElementById("email").value;
+          var password = document.getElementById("password").value;
+
+          console.log("Email:", email);
+          console.log("Password:", password);
+
+          
+        });
+    </script>
+  </body>
+</html>

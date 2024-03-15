@@ -1,0 +1,62 @@
+body {
+    background-image: url('5bd558e5b1bf3cc05f08c372b8888246.jpg'); /* Caminho para sua imagem de background */
+    background-size: auto; /* Garante que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+    
+  }
+.Back{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: azure;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+    text-decoration: none;
+    box-shadow: 3px 3px 0;
+     text-align: center;
+     display: block;
+     font-size: 16px;
+
+  }
+  
+
+  h1{
+    text-align: center;
+    margin-top: 20%;
+    
+
+    
+  }
+
+.container {
+    background-color:azure ;
+    width: 500px; /* Largura do quadrado */
+    height: 230px; /* Altura do quadrado */
+    border: 2px solid black; /* Bordas sólidas de 2 pixels na cor preta */
+    margin-left: 35%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    label {
+        margin-bottom: 1opx; /* Adiciona 10 pixels de margem inferior entre cada label e input */
+      
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="re-type password"] {
+        margin-bottom: 15px; /* Adiciona 20 pixels de margem inferior entre cada input */
+    }
+
+    .material-symbols-outlined {
+        font-family: 'Material Symbols Outlined', sans-serif;
+        font-size: 24px; /* Ajuste o tamanho do ícone conforme necessário */
+        margin-left: 5px; /* Adiciona espaço entre o input e o ícone */
+    }
+}
+
